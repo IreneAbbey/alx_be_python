@@ -8,7 +8,7 @@ def Current_age():
         except ValueError:
             print("Invalid input. Please enter a valid integer.")
 
-present_age = Current_age(30)
+present_age = Current_age()
 
 # Calculating their future age
 age = present_age + 27
