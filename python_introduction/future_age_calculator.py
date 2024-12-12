@@ -1,15 +1,8 @@
-# Asking for users age
-def Current_age():
-    while True:
-        try:
-            # Prompt the user for their current age
-            current_age = int(input("How old are you? "))
-            return current_age
-        except ValueError:
-            print("Invalid input. Please enter a valid integer.")
+# Ask for user's age
+current_age = int(input("How old are you? "))
 
-present_age = Current_age()
+# Calculate age in 2050
+age_in_2050 = current_age + 27
 
-# Calculating their future age
-age = present_age + 27
-print(f"In 2050, you will be {age} years old")
+# Print the result
+print(f"In 2050, you will be {age_in_2050} years old")
